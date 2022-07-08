@@ -9,7 +9,7 @@ int[] array = new int [size];
 Random random = new Random();
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = random.Next(-10, 11);
+    array[i] = random.Next(-33, 20);
 }
 Console.WriteLine();
 Console.WriteLine("Вывод массива:");
