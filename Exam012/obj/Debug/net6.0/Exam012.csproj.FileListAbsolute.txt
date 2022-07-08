@@ -1,0 +1,15 @@
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\bin\Debug\net6.0\Exam012.exe
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\bin\Debug\net6.0\Exam012.deps.json
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\bin\Debug\net6.0\Exam012.runtimeconfig.json
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\bin\Debug\net6.0\Exam012.dll
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\bin\Debug\net6.0\Exam012.pdb
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.csproj.AssemblyReference.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.AssemblyInfoInputs.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.AssemblyInfo.cs
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.csproj.CoreCompileInputs.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.dll
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\refint\Exam012.dll
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.pdb
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\Exam012.genruntimeconfig.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\Exam012\obj\Debug\net6.0\ref\Exam012.dll
