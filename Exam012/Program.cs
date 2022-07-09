@@ -22,7 +22,7 @@ int[] FillArray(int size)
 }
 void PrintArray(int[] array)
 {
-    Console.WriteLine("Вывод массива:");
+    Console.WriteLine("Вывод массива: ");
     for(int i = 0; i < array.Length; i++)
     {
         Console.Write(array[i] + " ");
@@ -34,5 +34,4 @@ void PrintArray(int[] array)
             Console.Write(i + " ");
         }
 }
-
 Zadacha29();
