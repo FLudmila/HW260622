@@ -6,17 +6,33 @@
 //6, 1, -33 -> [1, 6, -33]
 int size = 8;
 int[] array = new int [size];
-Random random = new Random();
-for (int i = 0; i < array.Length; i++)
+array = FillArray(size);
+PrintArray(array);
+}
+
+int[] FillArray(int size)
 {
-    array[i] = random.Next(-33, 20);
+    int[] fillArr = new int[size];
+    Random random = new Random();
+    for (int i = 0; i < fillArr.Length; i++)
+    {
+        fillArr[i] = random.Next(-33, 20);
+    }
+    return fillArr;
 }
-Console.WriteLine();
-Console.WriteLine("Вывод массива:");
-for(int i = 0; i < array.Length; i++)
+void PrintArray(int[] array)
 {
-    Console.Write(array[i] + "\t");
+    Console.WriteLine("Вывод массива:");
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+    Array.Sort(array);
+    foreach(int i in array) 
+        {
+            Console.Write(i + " ");
+        }
 }
-Console.WriteLine();
-}
+
 Zadacha29();
