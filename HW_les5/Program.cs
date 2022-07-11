@@ -41,7 +41,7 @@ void PrintCount(int[] array)
 
 //Zadacha34();
 
-void Zadacha36()
+//void Zadacha36()
 {
     //Задача 36: Задайте одномерный массив, заполненный случайными числами. 
     //Найдите сумму элементов, стоящих на нечётных позициях.
@@ -59,8 +59,37 @@ void Zadacha36()
     Console.WriteLine("Сумма элементов, стоящих на нечетных позициях, равна " + sum);
 
 }
-Zadacha36();
+//Zadacha36();
 
+void Zadacha38()
+{
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным 
 //и минимальным элементов массива.
 //[3 7 22 2 78] -> 76
+Random random = new Random();
+double[] array = new double[10];
+for (int i = 0; i < array.Length; i++)
+{
+    array[i] = Math.Round(random.NextDouble() * 10 - 5,2);
+}
+
+Console.WriteLine("Вывод массива:");
+for(int i = 0; i < array.Length; i++)
+{
+    Console.Write(array[i] + "\t");
+}
+Console.WriteLine();
+
+double max = array[0];
+double min = array[0];
+for(int i = 1; i < array.Length; i++)
+{
+    if (array[i] > max) max = array[i];
+    else if (array[i] < min) min = array[i];
+}
+Console.WriteLine();
+Console.WriteLine("Максимальное значение равно" + max);
+Console.WriteLine("Минимальное значение равно" + min);
+Console.WriteLine("Их разность равна" + (max - min));
+}
+Zadacha38();
