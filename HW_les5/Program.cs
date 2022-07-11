@@ -1,10 +1,9 @@
-﻿void Zadacha34()
+﻿//void Zadacha34()
 {   
 // Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. 
 //Напишите программу, которая покажет количество чётных чисел в массиве.
 //[345, 897, 568, 234] -> 2
-int size = 4;
-int[] array = new int [size];
+int[] array = new int [4];
 FillArray(array, 100, 999);
 PrintArray(array);
 PrintCount(array);
@@ -40,31 +39,27 @@ void PrintCount(int[] array)
     Console.WriteLine("В массиве четных чисел " + count);
 }
 
-Zadacha34();
+//Zadacha34();
 
-//void Zadacha36()
-{   
-//Задача 36: Задайте одномерный массив, заполненный случайными числами. 
-//Найдите сумму элементов, стоящих на нечётных позициях.
-//[3, 7, 23, 12] -> 19
-//[-4, -6, 89, 6] -> 0
-
-int [] array = new int [size];
-array = FillArray(size);
-PrintArray(array);
-PrintCount(array);
-}
-
-int[] FillArray(int size)
+void Zadacha36()
 {
-    int[] fillArr = new int[size];
-    Random random = new Random();
-    for (int i = 0; i < fillArr.Length; i++)
+    //Задача 36: Задайте одномерный массив, заполненный случайными числами. 
+    //Найдите сумму элементов, стоящих на нечётных позициях.
+    //[3, 7, 23, 12] -> 19
+    //[-4, -6, 89, 6] -> 0
+    int[] array = new int [4];
+    FillArray(array, 3, 30);
+    PrintArray(array);
+
+    int sum = 0;
+    for (int i = 0; i < array.Length; i++)
     {
-        fillArr[i] = random.Next(100, 999);
+        if (i % 2 == 1) sum += array[i];
     }
-    return fillArr;
+    Console.WriteLine("Сумма элементов, стоящих на нечетных позициях, равна " + sum);
+
 }
+Zadacha36();
 
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным 
 //и минимальным элементов массива.
