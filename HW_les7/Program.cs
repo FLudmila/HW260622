@@ -38,6 +38,7 @@ void Zadacha43()
     {
         Console.WriteLine("Прямые параллельны");
     }
+    
 }
 Zadacha43();
 
