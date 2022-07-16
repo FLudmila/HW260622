@@ -1,0 +1,15 @@
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.csproj.AssemblyReference.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.AssemblyInfoInputs.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.AssemblyInfo.cs
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.csproj.CoreCompileInputs.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\bin\Debug\net6.0\HW_les7.exe
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\bin\Debug\net6.0\HW_les7.deps.json
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\bin\Debug\net6.0\HW_les7.runtimeconfig.json
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\bin\Debug\net6.0\HW_les7.dll
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\bin\Debug\net6.0\HW_les7.pdb
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.dll
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\refint\HW_les7.dll
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.pdb
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\HW_les7.genruntimeconfig.cache
+C:\Users\frolova.ludmila\Desktop\Флешка\Обучение_Разработчик\HomeWork\HW_les7\obj\Debug\net6.0\ref\HW_les7.dll
