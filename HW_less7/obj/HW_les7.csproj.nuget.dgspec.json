@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_les7\\HW_les7.csproj": {}
+    "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_less7\\HW_les7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_les7\\HW_les7.csproj": {
+    "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_less7\\HW_les7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_les7\\HW_les7.csproj",
+        "projectUniqueName": "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_less7\\HW_les7.csproj",
         "projectName": "HW_les7",
-        "projectPath": "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_les7\\HW_les7.csproj",
+        "projectPath": "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_less7\\HW_les7.csproj",
         "packagesPath": "C:\\Users\\frolova.ludmila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_les7\\obj\\",
+        "outputPath": "C:\\Users\\frolova.ludmila\\Desktop\\Флешка\\Обучение_Разработчик\\HomeWork\\HW_less7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\frolova.ludmila\\AppData\\Roaming\\NuGet\\NuGet.Config"
