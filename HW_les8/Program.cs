@@ -1,7 +1,4 @@
-﻿Zadacha54();
-void Zadacha54()
-{
-//Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой 
+﻿//Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой 
 //строки двумерного массива.
 //Например, задан массив:
 //1 4 7 2
@@ -11,21 +8,22 @@ void Zadacha54()
 //7 2 4 1
 //9 5 3 2
 //8 4 4 2
-
-Random rand = new Random();
-int rows = Convert.ToInt32(Console.ReadLine());
-int columns = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите начальный диапазон чисел в массиве:");
-int startNumber = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите конечный диапазон чисел в массиве:");
-int finishNumber = Convert.ToInt32(Console.ReadLine());
-int[,] matrix = new int[rows, columns];
-Console.WriteLine("Задан массив:");
-FillMatrix(matrix, startNumber, finishNumber);
-PrintMatrix(matrix);
-Console.WriteLine("Отсортированный массив");
-SortedMatrix(matrix);
-PrintMatrix(matrix);
+void Zadacha54()
+{
+    Random rand = new Random();
+    int rows = Convert.ToInt32(Console.ReadLine());
+    int columns = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите начальный диапазон чисел в массиве:");
+    int startNumber = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите конечный диапазон чисел в массиве:");
+    int finishNumber = Convert.ToInt32(Console.ReadLine());
+    int[,] matrix = new int[rows, columns];
+    Console.WriteLine("Задан массив:");
+    FillMatrix(matrix, startNumber, finishNumber);
+    PrintMatrix(matrix);
+    Console.WriteLine("Отсортированный массив");
+    SortedMatrix(matrix);
+    PrintMatrix(matrix);
 }
 
 int[,] FillMatrix(int[,] arr, int startNumber, int FinishNumber)
@@ -78,3 +76,4 @@ int[,] SortedMatrix(int[,] arr)
     }
     return arr;
 }
+Zadacha54();
