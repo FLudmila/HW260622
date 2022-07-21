@@ -10,23 +10,18 @@
 //8 4 4 2
 void Zadacha54()
 {
-    Random rand = new Random();
-    int rows = Convert.ToInt32(Console.ReadLine());
-    int columns = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Введите начальный диапазон чисел в массиве:");
-    int startNumber = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("Введите конечный диапазон чисел в массиве:");
-    int finishNumber = Convert.ToInt32(Console.ReadLine());
-    int[,] matrix = new int[rows, columns];
-    Console.WriteLine("Задан массив:");
-    FillMatrix(matrix, startNumber, finishNumber);
-    PrintMatrix(matrix);
+    Random random = new Random();
+    int rows = random.Next(2, 5);
+    int columns = random.Next(3, 6);
+    int[,] array = new int[rows, columns];
+    CreateIntArray(array);
+    PrintArray(array);
     Console.WriteLine("Отсортированный массив");
-    SortedMatrix(matrix);
-    PrintMatrix(matrix);
+    SortedArray(array);
+    PrintArray(array);
 }
 
-int[,] FillMatrix(int[,] arr, int startNumber, int FinishNumber)
+int[,] CreateIntArray(int[,] arr)
 {
     Random random = new Random();
     int rows = arr.GetLength(0);
@@ -35,13 +30,13 @@ int[,] FillMatrix(int[,] arr, int startNumber, int FinishNumber)
     {
         for (int j = 0; j < columns; j++)
         {
-            arr[i, j] = random.Next(startNumber, FinishNumber);
+            arr[i, j] = random.Next(1,10);
         }
     }
     return arr;
 }
 
-int[,] PrintMatrix(int[,] arr)
+int[,] PrintArray(int[,] arr)
 {
     int rows = arr.GetLength(0);
     int columns = arr.GetLength(1);
@@ -57,7 +52,7 @@ int[,] PrintMatrix(int[,] arr)
     return arr;
 }
 
-int[,] SortedMatrix(int[,] arr)
+int[,] SortedArray(int[,] arr)
 {
     int rows = arr.GetLength(0);
     int columns = arr.GetLength(1);
