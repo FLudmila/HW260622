@@ -28,7 +28,7 @@ void AllNumbers(int m, int n)
 }
 //Zadacha64();
 
-void Zadacha66()
+//void Zadacha66()
 {
 // Задача 66: Задайте значения M и N. Напишите программу, которая найдёт сумму 
 // натуральных элементов в промежутке от M до N.
@@ -49,9 +49,37 @@ void SumNumbers(int m, int n, int sum = 0)
         Console.Write(sum);
         return;
     }
-
     sum = sum + m;
     m++;
     SumNumbers(m, n, sum);
 }
-Zadacha66();
+//Zadacha66();
+
+void Zadacha68()
+{
+//Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии.
+//Даны два неотрицательных числа m и n.
+// m = 3, n = 2 -> A(m,n) = 29
+    Console.WriteLine("Введите число- М:");
+    int M = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите число- N:");
+    int N = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(AkkermanFunction(M,N));
+}
+
+int AkkermanFunction(int m, int n)
+{
+    if(m == 0)
+    {
+        return n+1;
+    }
+    else if(n==0)
+    {
+        return AkkermanFunction(m-1,1);
+    }
+    else 
+    {
+        return AkkermanFunction(m-1,AkkermanFunction(m,n-1));
+    }
+}
+Zadacha68();
